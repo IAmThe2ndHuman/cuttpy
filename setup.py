@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cuttpy",
-    version="1.1.0",
+    version="1.1.1",
     author="IAmThe2ndHuman",
     license="MIT",
     description="Wrapper for the cutt.ly URL shortener API.",

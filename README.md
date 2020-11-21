@@ -80,8 +80,8 @@ The only class worth your time in this library.
 
 `shorten(url)` - Returns a `CuttpyResponse()` object with everything you need.
 
-## <a name="cuttpy"></a>`CuttpyResponse()`
-The return type of class `Cuttpy().shorten()` with various attributes.
+## `CuttpyResponse()`
+The return type of method `Cuttpy().shorten()` with various attributes.
 
 ***Attributes:***
 
@@ -126,5 +126,4 @@ Title speaks for itself.
 | shortened_url | The shortened version of the original URL.       |
 
 # Exceptions
-This API wrapper uses a system of error codes. View what they mean in the attributes section of the 
-[CuttpyResponse()](cuttpy) class.
+This API wrapper uses a system of error codes. View what they mean in the attributes section of the `CuttpyResponse()` class.
