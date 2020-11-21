@@ -11,11 +11,12 @@ setuptools.setup(
     description="Wrapper for the cutt.ly URL shortener API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MakufonSkifto/RedditEasy",
+    url="https://github.com/IAmThe2ndHuman/cuttpy",
     packages=setuptools.find_packages(),
     install_requires=["requests"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
-    pytho
+    python_requires='>=3.6',
+)
